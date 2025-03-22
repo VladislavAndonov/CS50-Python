@@ -14,4 +14,5 @@ def shorten(text):
     return shorten_word
 
 
-main()
+if __name__ == "__main__"():
+    main()
