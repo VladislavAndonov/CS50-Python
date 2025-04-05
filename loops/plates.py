@@ -8,15 +8,15 @@ def main():
 
 
 def is_valid(s):
-    
+
     if not s[0:2].isalpha():
         return False
-    
+
     if 2 > len(s) or len(s) > 6:
         return False
 
     for i in range(len(s)):
-        
+
         if not s[i].isnumeric() and not s[i].isalpha():
             return False
 
@@ -36,4 +36,5 @@ def is_valid(s):
     return True
 
 
-main()
+if __name__ == "__main__":
+    main()
